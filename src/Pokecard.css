@@ -1,0 +1,88 @@
+
+/* Query string chaine de caractere de la requette (?), les parametres separer de (&), le display */
+/* body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(191, 190, 190);
+} */
+.Pokecard{
+   width: 300px;
+   padding: 10px;
+   margin: 1.5rem;
+   box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.50);
+   text-align: center;
+background-color: white;
+}
+.Pokecard-title{
+   margin-bottom: 1.5rem;
+   font-weight: bold;
+   font-size: 2rem;
+}
+.Pokecard-data{
+   font-size: 1.2rem;
+}
+
+.Pokecard-image {
+  /* width: 235px;
+  padding: 10px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 7px 7px 5px rgb(119, 117, 117); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: #eceff1;
+  border-radius: 3px;
+  margin: 1.5rem;
+}
+
+.Pokecard img:hover{
+   transform:  scale(1.25);
+   opacity: 0.7;
+}
+
+.Pokecard img{
+   transition: all ease 500ms ;
+}
+/* .Pokecard-image .box-image {
+  overflow: hidden;
+}
+.box-image {
+  position: relative;
+} */
+/* 
+.box-image::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgb(191, 190, 190);
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s linear 0.2s;
+}
+.box-image:hover::after {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.box-image img {
+  transform: scale(1);
+  transition: transform 0.4s linear 0.2s;
+}
+
+.box-image:hover img {
+  transform: scale(1.2);
+  transition: transform 0.3s linear 0.2s;
+}
+
+@media screen and (min-width: 501px) and (max-width: 1200px) {
+  .Pokecard {
+    display: inline-block;
+    /* width: 20%; */
+    /* margin: 0px 20px; */
+  /* }
+} */ 
